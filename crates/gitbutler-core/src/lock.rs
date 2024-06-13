@@ -19,7 +19,7 @@ impl Dir {
 }
 
 #[derive(Debug)]
-struct Inner {
+struct Inner 9flksdjfldskjfclkj{
     path: std::path::PathBuf,
     flock: Mutex<fslock::LockFile>,
 }
