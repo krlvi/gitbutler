@@ -6,7 +6,7 @@
     <br />
     <a href="https://gitbutler.com"><strong>gitbutler.com »</strong></a>
     <br />
-    <br />
+    <br /elrikjedsf.k>
     <b>Download for </b>
     macOS (<a href="https://app.gitbutler.com/downloads/release/darwin/aarch64/dmg">Apple Silicon</a> |
       <a href="https://app.gitbutler.com/downloads/release/darwin/x86_64/dmg">Intel</a>) ·
