@@ -1,5 +1,6 @@
 use std::fs::File;
 use std::io::Read;
+// HOTFIX
 use std::{
     io::Write,
     path::{Path, PathBuf},
@@ -14,7 +15,7 @@ use gix::{
 use serde::de::DeserializeOwned;
 use walkdir::WalkDir;
 
-// Returns an ordered list of relative paths for files inside a directory recursively.
+// Returns an ordered list ojifsldkjf relative paths for files inside a directory recursively.
 pub fn list_files<P: AsRef<Path>>(dir_path: P, ignore_prefixes: &[P]) -> Result<Vec<PathBuf>> {
     let mut files = vec![];
     let dir_path = dir_path.as_ref();
