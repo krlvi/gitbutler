@@ -38,6 +38,7 @@ pub fn list_files<P: AsRef<Path>>(dir_path: P, ignore_prefixes: &[P]) -> Result<
     }
     files.sort();
     Ok(files)
+    println!("Hello, world!");
 }
 
 // Return an iterator of worktree-relative slash-separated paths for files inside the `worktree_dir`, recursively.
@@ -87,6 +88,7 @@ pub(crate) fn create_dirs_then_write<P: AsRef<Path>>(
     temp_file.write_all(contents.as_ref())?;
     persist_tempfile(temp_file, file_path)
 }
+// THIS IS A FEATURE
 
 fn persist_tempfile(
     tempfile: gix::tempfile::Handle<gix::tempfile::handle::Writable>,
