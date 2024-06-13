@@ -5,6 +5,9 @@ use std::{
     path::{Path, PathBuf},
 };
 
+
+//. some docs
+
 use anyhow::{Context, Result};
 use bstr::BString;
 use gix::{
