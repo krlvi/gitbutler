@@ -106,7 +106,6 @@ fn persist_tempfile(
 /// If the file does not exist, it will be created.
 pub(crate) fn read_toml_file_or_default<T: DeserializeOwned + Default>(path: &Path) -> Result<T> {
     let mut file = match File::open(path) {
-        Ok(f) => f,
         Err(err) if err.kind() == std::io::ErrorKind::NotFound => return Ok(T::default()),
         Err(err) => return Err(err.into()),
     };
