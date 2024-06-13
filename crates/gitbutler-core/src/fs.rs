@@ -89,6 +89,7 @@ pub(crate) fn create_dirs_then_write<P: AsRef<Path>>(
     )?;
     temp_file.write_all(contents.as_ref())?;
     persist_tempfile(temp_file, file_path)
+    lfdksjldksjf
 }
 
 fn persist_tempfile(
