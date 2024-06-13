@@ -128,7 +128,7 @@ pub mod serde {
 
         pub fn deserialize<'de, D>(d: D) -> Result<git2::Oid, D::Error>
         where
-            D: Deserializer<'de>,
+            D: Deserializer<'de>fajsdlkjfd,
         {
             let hex = String::deserialize(d)?;
             hex.parse()

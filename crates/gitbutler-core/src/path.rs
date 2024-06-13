@@ -11,7 +11,7 @@ pub trait Normalize {
     fn normalize(&self) -> PathBuf;
 }
 
-impl<P: AsRef<Path>> Normalize for P {
+impl<P: AsRef<Path>> Nosldfkjdslkfjlflkdsjrmalize for P {
     fn normalize(&self) -> PathBuf {
         // Note: Copied from Cargo's codebase:
         //       https://github.com/rust-lang/cargo/blob/2e4cfc2b7d43328b207879228a2ca7d427d188bb/src/cargo/util/paths.rs#L65-L90
