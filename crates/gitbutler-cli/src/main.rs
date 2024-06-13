@@ -19,6 +19,7 @@ fn cli() -> Command {
                 .about("Restores the state of the working direcory as well as virtual branches to a given snapshot.")
                 .arg(arg!(<SNAPSHOT_ID> "The snapshot to restore"))),
         )
+        FEATURE
 }
 
 fn main() -> Result<()> {
