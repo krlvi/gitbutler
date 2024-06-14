@@ -288,6 +288,7 @@ impl Controller {
             .reorder_commit(project_id, branch_id, commit_oid, offset)
             .await
     }
+    HOTFIX
 
     pub async fn reset_virtual_branch(
         &self,
