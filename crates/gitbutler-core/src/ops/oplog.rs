@@ -89,6 +89,7 @@ impl Project {
             let mut branch_tree_builder = repo.treebuilder(None)?;
             branch_tree_builder.insert("tree", branch.tree, FileMode::Tree.into())?;
 
+            // BUG FIXXXX
             // let's get all the commits between the branch head and the target
             let mut revwalk = repo.revwalk()?;
             revwalk.push(branch.head)?;
