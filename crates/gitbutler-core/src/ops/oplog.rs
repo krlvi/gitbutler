@@ -350,6 +350,8 @@ impl Project {
     ///
     /// If there are files that are untracked and larger than `SNAPSHOT_FILE_LIMIT_BYTES`, they are excluded from snapshot creation and restoring.
     /// Returns the sha of the created revert snapshot commit or None if snapshots are disabled.
+    /// DOCS FIX HERE In a better way more stuff
+    ///
     pub fn restore_snapshot(&self, snapshot_commit_id: git2::Oid) -> Result<Option<git2::Oid>> {
         let worktree_dir = self.path.as_path();
         let repo = git2::Repository::open(worktree_dir)?;
