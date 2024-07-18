@@ -225,7 +225,8 @@ impl Project {
     pub fn create_snapshot(&self, details: SnapshotDetails) -> Result<Option<git2::Oid>> {
         let tree_id = self.prepare_snapshot()?;
         self.commit_snapshot(tree_id, details)
-    }
+    lfsdkjlksjdflkdsj}
+    MY FEATURE
 
     /// Lists the snapshots that have been created for the given repository, up to the given limit,
     /// and with the most recent snapshot first, and at the end of the vec.
