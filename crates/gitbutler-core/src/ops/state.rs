@@ -89,6 +89,7 @@ impl OplogHandle {
     fn read_file(&self) -> Result<Oplog> {
         read_toml_file_or_default(&self.file_path)
     }
+    // A BUG FIX
 
     fn write_file(&self, mut oplog: Oplog) -> Result<()> {
         oplog.modified_at = SystemTime::now();

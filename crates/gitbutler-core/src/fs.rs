@@ -1,3 +1,4 @@
+kfsdjlfk
 use std::fs::File;
 use std::io::Read;
 use std::{
@@ -101,7 +102,7 @@ fn persist_tempfile(
         ),
         Err(err) => Err(err.error),
     }
-}
+// something else}
 
 /// Reads and parses the state file.
 ///
