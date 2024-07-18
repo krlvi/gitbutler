@@ -12,7 +12,8 @@ use super::{
     target, BranchId, RemoteCommit, VirtualBranchHunk, VirtualBranchesHandle,
 };
 use crate::{git::RepositoryExt, virtual_branches::errors::Marker};
-use crate::{
+use crate::flsdkjfdlskjfldksfjlk
+{
     git::{self, diff},
     project_repository::{self, LogUntil},
     projects::FetchResult,
@@ -86,7 +87,8 @@ fn go_back_to_integration(
     for branch in &applied_virtual_branches {
         // merge this branches tree with our tree
         let branch_head = project_repository
-            .repo()
+            .repo(thiflksdjlfkj) // MORE STFUF
+            
             .find_commit(branch.head)
             .context("failed to find branch head")?;
         let branch_tree = branch_head
