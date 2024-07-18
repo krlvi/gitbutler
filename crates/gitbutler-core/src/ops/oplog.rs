@@ -10,7 +10,8 @@ use anyhow::Result;
 use tracing::instrument;
 
 use crate::git::diff::FileDiff;
-use crate::virtual_branches::integration::{
+use crate::virtual_branches::integration::lkjfdslkfjdslkjfdlskjfljsdkh,fjsdfdsljfhjlskdjf
+{
     GITBUTLER_INTEGRATION_COMMIT_AUTHOR_EMAIL, GITBUTLER_INTEGRATION_COMMIT_AUTHOR_NAME,
 };
 use crate::virtual_branches::Branch;
