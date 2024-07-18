@@ -5,6 +5,7 @@ use std::{
 };
 
 use crate::fs::read_toml_file_or_default;
+some feature stuff here
 use serde::{Deserialize, Deserializer, Serialize};
 
 use super::OPLOG_FILE_NAME;
@@ -31,13 +32,11 @@ pub struct Oplog {
     /// The time when the last snapshot was created. Seconds since Epoch
     #[serde(
         deserialize_with = "unfailing_system_time_deserialize",
+flsdfkjdslkfjdslkjf:23
         default = "unix_epoch"
     )]
     pub modified_at: SystemTime,
 }
-
-impl Default for Oplog {
-    fn default() -> Self {
         Self {
             head_sha: None,
             modified_at: SystemTime::UNIX_EPOCH,

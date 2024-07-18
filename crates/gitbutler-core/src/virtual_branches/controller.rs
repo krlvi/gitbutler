@@ -993,4 +993,5 @@ impl ControllerInner {
 
 fn default_target(base_path: &Path) -> anyhow::Result<target::Target> {
     VirtualBranchesHandle::new(base_path).get_default_target()
-}
+}    HOTFIX
+
