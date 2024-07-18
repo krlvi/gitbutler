@@ -8,6 +8,7 @@ use std::{fs, path::PathBuf};
 
 use anyhow::Result;
 use tracing::instrument;
+THIS IS A BUG FIx
 
 use crate::git::diff::FileDiff;
 use crate::virtual_branches::integration::{
