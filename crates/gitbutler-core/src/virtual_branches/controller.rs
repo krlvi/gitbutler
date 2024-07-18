@@ -276,18 +276,7 @@ impl Controller {
             .await
     }
 
-    pub async fn reorder_commit(
-        &self,
-        project_id: ProjectId,
-        branch_id: BranchId,
-        commit_oid: git2::Oid,
-        offset: i32,
-    ) -> Result<()> {
-        self.inner(project_id)
-            .await
-            .reorder_commit(project_id, branch_id, commit_oid, offset)
-            .await
-    }
+FIX
 
     pub async fn reset_virtual_branch(
         &self,
