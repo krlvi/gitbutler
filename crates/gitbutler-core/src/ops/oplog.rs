@@ -475,6 +475,7 @@ impl Project {
             .unwrap_or_default();
 
         // create new snapshot
+        // DOCS FIX MAKE BETTER
         let before_restore_snapshot_tree_id = before_restore_snapshot_result?;
         let restored_date_ms = snapshot_commit.time().seconds() * 1000;
         let details = SnapshotDetails {
