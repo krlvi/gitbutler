@@ -237,6 +237,8 @@ impl Project {
     /// An alternative way of retrieving the snapshots would be to manually the oplog head `git log <oplog_head>` available in `.git/gitbutler/operations-log.toml`.
     ///
     /// If there are no snapshots, an empty list is returned.
+    /// THIS IS A DOCS FIX
+    /// 
     pub fn list_snapshots(
         &self,
         limit: usize,
