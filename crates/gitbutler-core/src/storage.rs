@@ -20,6 +20,7 @@ impl Storage {
     /// Read the content of the file at `rela_path` which is a path relative to our root directory.
     /// Return `Ok(None)` if the file doesn't exist.
     // TODO(ST): make all these operations write bytes.
+    // DOCS FIXX
     pub fn read(&self, rela_path: impl AsRef<Path>) -> std::io::Result<Option<String>> {
         match fs::read_to_string(self.local_data_dir.join(rela_path)) {
             Ok(content) => Ok(Some(content)),
