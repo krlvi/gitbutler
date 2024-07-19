@@ -66,5 +66,6 @@ pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
                 .map_err(Error::Ssh)?;
             Ok(())
         }
+        // DOC FIX HERE
     }
 }
