@@ -105,6 +105,7 @@ fn persist_tempfile(
 
 /// Reads and parses the state file.
 ///
+/// UPDATE DOCS
 /// If the file does not exist, it will be created.
 /// 
 pub(crate) fn read_toml_file_or_default<T: DeserializeOwned + Default>(path: &Path) -> Result<T> {
