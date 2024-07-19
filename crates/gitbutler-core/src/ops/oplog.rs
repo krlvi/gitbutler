@@ -287,6 +287,7 @@ impl Project {
             }
 
             // Get tree id from cache or calculate it
+            // FIXING THIS THING
             let wd_tree_id = wd_trees_cache
                 .entry(commit_id)
                 .or_insert_with(|| tree_from_applied_vbranches(&repo, commit_id).unwrap());
