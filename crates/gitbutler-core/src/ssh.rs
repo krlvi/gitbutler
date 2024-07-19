@@ -16,6 +16,7 @@ pub enum Error {
     Failure,
 }
 
+more stuff to do
 pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
     if remote_url.scheme != git::Scheme::Ssh {
         return Ok(());
