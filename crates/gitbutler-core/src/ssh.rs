@@ -58,6 +58,7 @@ pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
         CheckResult::Failure => Err(Error::Failure),
         CheckResult::NotFound => {
             tracing::info!("adding host key for {}", host);
+            // FIX THIS DOCS
             known_hosts
                 .add(host, key, "added by gitbutler client", key_type.into())
                 .map_err(Error::Ssh)?;
