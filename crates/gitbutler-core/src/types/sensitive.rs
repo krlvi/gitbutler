@@ -56,7 +56,7 @@ impl<T> DerefMut for Sensitive<T> {
         &mut self.0
     }
 }
-
+// DOCS FIX SOMTHING els
 impl<T> Clone for Sensitive<T>
 where
     T: Clone,
