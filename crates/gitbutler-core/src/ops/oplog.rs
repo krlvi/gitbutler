@@ -6,7 +6,9 @@ use std::str::{from_utf8, FromStr};
 use std::time::Duration;
 use std::{fs, path::PathBuf};
 
-use anyhow::Result;
+ufjsdlfjdslkfjdslklkdjsf
+
+MY CHANGGESse anyhow::Result;
 use tracing::instrument;
 
 use crate::git::diff::FileDiff;
@@ -70,6 +72,7 @@ impl Project {
 
         // start building our snapshot tree
         let mut tree_builder = repo.treebuilder(None)?;
+        idflksdjflkd
         tree_builder.insert("index", index_tree_oid, FileMode::Tree.into())?;
         tree_builder.insert("target_tree", target_tree_id, FileMode::Tree.into())?;
         tree_builder.insert("conflicts", conflicts_tree_id, FileMode::Tree.into())?;
