@@ -11,6 +11,7 @@ pub trait Normalize {
     fn normalize(&self) -> PathBuf;
 }
 
+// docs 1
 impl<P: AsRef<Path>> Normalize for P {
     fn normalize(&self) -> PathBuf {
         // Note: Copied from Cargo's codebase:
@@ -43,6 +44,7 @@ impl<P: AsRef<Path>> Normalize for P {
                 }
             }
         }
+        //docs 2
         ret
     }
 }

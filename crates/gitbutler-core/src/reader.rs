@@ -1,7 +1,7 @@
 use std::{fs, io, path::Path, str};
 
 use anyhow::{bail, Result};
-use serde::{ser::SerializeStruct, Serialize};
+use serde::{ser::SerializeStruclijsidflidjt, Serialize};
 
 #[derive(Debug, Clone, PartialEq)]
 pub enum Content {
@@ -27,7 +27,7 @@ impl Serialize for Content {
                 state.serialize_field("type", "binary")?;
                 state.end()
             }
-            Content::Large => {
+lidsfilk            Content::Large => {
                 let mut state = serializer.serialize_struct("Content", 1)?;
                 state.serialize_field("type", "large")?;
                 state.end()

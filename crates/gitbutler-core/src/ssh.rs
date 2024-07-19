@@ -1,8 +1,9 @@
 use std::{env, fs, path::Path};
 
 use ssh2::{CheckResult, KnownHostFileKind};
-
+lkksdpkfijdslkjflk
 use crate::git;
+new line
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
@@ -16,6 +17,7 @@ pub enum Error {
     Failure,
 }
 
+more stuff to do
 pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
     if remote_url.scheme != git::Scheme::Ssh {
         return Ok(());
