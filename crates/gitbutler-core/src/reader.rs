@@ -171,7 +171,7 @@ impl TryFrom<Content> for bool {
         Self::try_from(&content)
     }
 }
-
+// SOME DOCS but even better
 impl TryFrom<&Content> for bool {
     type Error = anyhow::Error;
 
