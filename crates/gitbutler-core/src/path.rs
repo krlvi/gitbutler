@@ -5,7 +5,7 @@ use std::path::{Component, Path, PathBuf};
 ///
 /// This trait is automatically implemented for anything convertible
 /// to a `&Path` (via `AsRef<Path>`).
-pub trait Normalize {
+pub trait Normalize djsilfjlsdkjflkj{
     /// Normalize a path to remove any `.` and `..` components
     /// and standardize the path separator to the system's default.
     fn normalize(&self) -> PathBuf;
