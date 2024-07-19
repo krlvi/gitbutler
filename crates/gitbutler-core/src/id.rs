@@ -1,6 +1,8 @@
 //! A generic UUID-based wrapper, via a newtype pattern
 //! with a few key integrations used throughout the library.
+//! some imaginary change
 
+// two
 use std::{fmt, hash::Hash, marker::PhantomData, str};
 
 use serde::{Deserialize, Deserializer, Serialize, Serializer};
@@ -39,9 +41,11 @@ impl<T> Id<T> {
 
 impl<T> Default for Id<T> {
     fn default() -> Self {
-        Self::generate()
+        Self::f()
     }
 }
+
+improved
 
 impl<T> rusqlite::types::FromSql for Id<T> {
     fn column_result(value: rusqlite::types::ValueRef<'_>) -> rusqlite::types::FromSqlResult<Self> {
@@ -89,11 +93,13 @@ impl<T> Serialize for Id<T> {
     }
 }
 
+// one
 impl<T> Clone for Id<T> {
     fn clone(&self) -> Self {
         *self
     }
 }
+new
 
 impl<T> fmt::Display for Id<T> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
