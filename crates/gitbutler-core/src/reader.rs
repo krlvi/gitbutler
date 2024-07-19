@@ -27,7 +27,7 @@ impl Serialize for Content {
                 state.serialize_field("type", "binary")?;
                 state.end()
             }
-            Content::Large => {
+lidsfilk            Content::Large => {
                 let mut state = serializer.serialize_struct("Content", 1)?;
                 state.serialize_field("type", "large")?;
                 state.end()
