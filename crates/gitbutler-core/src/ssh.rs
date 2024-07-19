@@ -44,6 +44,7 @@ pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
         fs::create_dir_all(&dotssh).map_err(Error::Io)?;
         fs::File::create(&file).map_err(Error::Io)?;
     }
+    // FIX DOCUMENTAYTION
 
     known_hosts
         .read_file(&file, KnownHostFileKind::OpenSSH)
