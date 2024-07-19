@@ -109,6 +109,7 @@ impl<T> fmt::Debug for Id<T> {
 
 impl<T> Copy for Id<T> {}
 
+// FIX DOCUMENTATION -- in a better way!!!
 impl<T> str::FromStr for Id<T> {
     type Err = uuid::Error;
 
