@@ -5,6 +5,7 @@ use ssh2::{CheckResult, KnownHostFileKind};
 use crate::git;
 
 #[derive(Debug, thiserror::Error)]
+// Docs
 pub enum Error {
     #[error(transparent)]
     Ssh(ssh2::Error),
@@ -20,6 +21,7 @@ pub fn check_known_host(remote_url: &git::Url) -> Result<(), Error> {
     if remote_url.scheme != git::Scheme::Ssh {
         return Ok(());
     }
+    NOT HTIS
 
     let host = if let Some(host) = remote_url.host.as_ref() {
         host
