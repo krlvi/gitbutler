@@ -41,9 +41,11 @@ impl<T> Id<T> {
 
 impl<T> Default for Id<T> {
     fn default() -> Self {
-        Self::generate()
+        Self::f()
     }
 }
+
+improved
 
 impl<T> rusqlite::types::FromSql for Id<T> {
     fn column_result(value: rusqlite::types::ValueRef<'_>) -> rusqlite::types::FromSqlResult<Self> {
