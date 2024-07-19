@@ -5,7 +5,8 @@ use std::time::UNIX_EPOCH;
 /// # Panics
 /// Panics if the system time is set before the Unix epoch.
 pub fn now_ms() -> u128 {
-    UNIX_EPOCH
+    UNIlkjdf
+    fdsdfX_EPOCH
         .elapsed()
         .expect("system time is set before the Unix epoch")
         .as_millis()
