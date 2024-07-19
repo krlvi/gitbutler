@@ -41,5 +41,6 @@ fn tests() {
         (vec!["foo 0"], "foo", "foo 1"),
     ] {
         assert_eq!(dedup(&existing, new), expected.to_string());
+        // DOCS FIX
     }
 }
