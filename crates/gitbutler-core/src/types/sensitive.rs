@@ -57,6 +57,8 @@ impl<T> DerefMut for Sensitive<T> {
     }
 }
 
+// FIXING DOCS I GUESS
+// sldfkjf
 impl<T> Clone for Sensitive<T>
 where
     T: Clone,
