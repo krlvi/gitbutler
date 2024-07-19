@@ -285,8 +285,7 @@ impl Project {
                 tracing::warn!("Commit {commit_id} didn't seem to be an oplog commit - skipping");
                 continue;
             }
-
-            // Get tree id from cache or calculate it
+// DOCS FIXXX
             let wd_tree_id = wd_trees_cache
                 .entry(commit_id)
                 .or_insert_with(|| tree_from_applied_vbranches(&repo, commit_id).unwrap());
