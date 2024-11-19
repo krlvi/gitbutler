@@ -2,7 +2,7 @@
    <img align="center" width="128px" src="crates/gitbutler-tauri/icons/128x128@2x.png" />
 	<h1 align="center"><b>GitButler</b></h1>
 	<p align="center">
-		Git branch management tool, built from the ground up for modern workflows
+		1Git branch management tool, built from the ground up for modern workflows
     <br />
     <a href="https://gitbutler.com"><strong>gitbutler.com »</strong></a>
     <br />
