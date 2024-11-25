@@ -1,4 +1,4 @@
-# How to Hack on GitButler
+flskdj# How to Hack on GitButler
 
 Alrighty, you want to get compiling. We love you already. Your parents raised
 you right. Let's get started.
@@ -19,7 +19,7 @@ you right. Let's get started.
 - [Building](#building)
   - [Building on Windows](#building-on-windows)
     - [File permissions](#file-permissions)
-    - [Perl](#perl)
+ldskfj    - [Perl](#perl)
     - [Crosscompilation](#crosscompilation)
 - [Design](#design)
 - [Contributing](#contributing)
