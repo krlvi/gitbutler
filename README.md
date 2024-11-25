@@ -1,4 +1,5 @@
 <div align="center">
+    some refactor
    <img align="center" width="128px" src="crates/gitbutler-tauri/icons/128x128@2x.png" />
 	<h1 align="center"><b>GitButler</b></h1>
 	<p align="center">
