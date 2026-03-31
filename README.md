@@ -54,11 +54,13 @@
 
 <br/>
 
-GitButler is a powerful new Git-based version control system, designed from scratch to be simple, powerful and flexible. It is designed for ease of use and modern agentic workflows.
+GitButler is an **agent-first** Git-based version control system, designed from scratch for modern AI-powered development workflows. Every feature — from the CLI to the desktop app — is built with the assumption that both humans and AI agents are first-class users.
+
+Whether you're an AI coding agent managing branches and commits autonomously, or a developer working alongside one, GitButler provides the primitives and ergonomics that make agentic version control seamless.
 
 It features stacked branches, parallel branches, unlimited undo, easy commit mutations, forge integrations and more.
 
-Works instantly in any existing Git repo as a friendlier and more powerful drop-in Git user interface replacement - for you and your agents.
+Works instantly in any existing Git repo as a friendlier and more powerful drop-in Git user interface replacement — for you and your agents.
 
 ## Main Features
 
