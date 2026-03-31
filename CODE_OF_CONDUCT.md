@@ -2,21 +2,29 @@
 
 ## Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+In the interest of fostering an open, welcoming, and genuinely kind environment,
+we as contributors and maintainers pledge to making participation in our project
+and our community a harassment-free experience for everyone, regardless of age,
+body size, disability, ethnicity, gender identity and expression, level of
+experience, nationality, personal appearance, race, religion, or sexual identity
+and orientation.
+
+We believe that being nice is not a weakness — it's a superpower. A kind word in
+a code review, a patient explanation for a newcomer, or a simple "thank you" can
+make all the difference.
 
 ## Our Standards
 
 Examples of behavior that contributes to creating a positive environment
 include:
 
+- Being kind and considerate in all interactions
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
+- Offering and gracefully accepting constructive feedback
+- Assuming good intentions — give people the benefit of the doubt
+- Celebrating each other's contributions, big or small
+- Helping newcomers feel welcome and supported
 - Focusing on what is best for the community
 - Showing empathy towards other community members
 
