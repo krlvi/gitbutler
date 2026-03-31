@@ -12,6 +12,7 @@ The officially supported way to install GitButler is with the `deb` package prov
 
 - Ubuntu 22.04 LTS (jammy)
 - Ubuntu 24.04 LTS (noble)
+- Arch Linux
 
 On these distributions, we aim to provide as good a user experience as on Windows and macOS. Compatibility is routinely verified and compatibility issues are the domain of the core GitButler team. We know that the current user experience does not quite deliver on all fronts, and work on improvements is underway.
 
