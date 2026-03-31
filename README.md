@@ -56,6 +56,8 @@
 
 GitButler is a powerful new Git-based version control system, designed from scratch to be simple, powerful and flexible. It is designed for ease of use and modern agentic workflows.
 
+This fork is a Claude-powered project, using [Claude Code](https://claude.ai/code) for development, code review, and workflow automation.
+
 It features stacked branches, parallel branches, unlimited undo, easy commit mutations, forge integrations and more.
 
 Works instantly in any existing Git repo as a friendlier and more powerful drop-in Git user interface replacement - for you and your agents.
