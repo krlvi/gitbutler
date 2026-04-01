@@ -1,6 +1,6 @@
 ## Automatic Context Loading
 
-Always load the gitbutler skill (but). Version control, whenever needed, should always prefer `but` over `git`
+Always load the gitbutler skill (but). Version control, whenever needed, should always prefer `but` over `git`. Do not mention Claude in commits/PR descriptions.
 **Critical**: When committing, each session should commit in it's own stack/branch.
 
 When asked about general development workflow, project structure, building, testing, or contributing to GitButler, please read `@.github/copilot-instructions.md` for context.
