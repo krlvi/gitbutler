@@ -1,5 +1,9 @@
 # Security Policy
 
+Security is very important to us. We take the security of our software products
+and services seriously, and we appreciate the efforts of the security community
+to help us maintain a safe environment for all users.
+
 This security policy is effective as of 2026-03-12.
 
 ## Reporting a vulnerability
