@@ -54,11 +54,11 @@
 
 <br/>
 
-GitButler is a powerful new Git-based version control system, designed from scratch to be simple, powerful and flexible. It is designed for ease of use and modern agentic workflows.
+GitButler is an agent-first Git client — a version control system designed from scratch so that both humans and AI agents can manage code with equal fluency. Every feature, from the GUI to the `but` CLI, is built to be simple, powerful and automatable.
 
-It features stacked branches, parallel branches, unlimited undo, easy commit mutations, forge integrations and more.
+It features stacked branches, parallel branches, unlimited undo, easy commit mutations, forge integrations and more — all accessible programmatically so your agents can branch, commit, reorder, and push without brittle scripting around vanilla Git.
 
-Works instantly in any existing Git repo as a friendlier and more powerful drop-in Git user interface replacement - for you and your agents.
+Works instantly in any existing Git repo as a friendlier and more powerful drop-in Git replacement — for you and your agents.
 
 ## Main Features
 
@@ -76,8 +76,9 @@ Why use GitButler instead of vanilla Git? What a great question.
   - Rebases always succeed. Commits can be marked as conflicted and resolved at any time, in any order.
 - **Forge Integration** ([gui](https://docs.gitbutler.com/features/forge-integration/github-integration), [cli](https://docs.gitbutler.com/cli-guides/cli-tutorial/forges))
   - Authenticate to GitHub or GitLab to easily open and update Pull Requests, list branches, get CI statuses and more. No other tools required.
-- **AI Tooling** ([gui](https://docs.gitbutler.com/features/ai-integration/ai-overview), [cli](https://docs.gitbutler.com/cli-guides/cli-tutorial/ai-stuff))
-  - Use built-in AI handlers to help create commit messages, branch names, PR descriptions and more.
+- **Agent-First Design** ([gui](https://docs.gitbutler.com/features/ai-integration/ai-overview), [cli](https://docs.gitbutler.com/cli-guides/cli-tutorial/ai-stuff))
+  - Every mutation is a single, scriptable CLI command — purpose-built for AI agents to branch, commit, reorder and push without interactive prompts or brittle rebases.
+  - Built-in AI handlers help create commit messages, branch names, PR descriptions and more.
   - Easily install hooks or skills for all modern agent systems to level up their Git management.
 
 ## Tech
