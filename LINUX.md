@@ -27,6 +27,10 @@ We provide an experimental AppImage that bundles the core dependencies required 
 
 The AppImage may be removed in the future if compatibility remains poor.
 
+## Experimentally supported: Arch Linux
+
+GitButler is known to work on Arch Linux. While not officially tested as part of the development process, Arch is a supported platform and compatibility issues are welcome in the [issue tracker](https://github.com/gitbutlerapp/gitbutler/issues). Community-maintained AUR packages are available (see below).
+
 ## Community-maintained distributions
 
 There are several community-maintained distributions of GitButler. Issues with these distributions should typically be brought to the attention of their respective maintainers.
