@@ -14,11 +14,15 @@ orientation.
 Examples of behavior that contributes to creating a positive environment
 include:
 
+- Being kind, patient, and genuinely helpful to others
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
 - Gracefully accepting constructive criticism
+- Offering encouragement to newcomers and less experienced contributors
 - Focusing on what is best for the community
 - Showing empathy towards other community members
+- Assuming good intentions and giving others the benefit of the doubt
+- Celebrating each other's contributions and successes
 
 Examples of unacceptable behavior by participants include:
 
