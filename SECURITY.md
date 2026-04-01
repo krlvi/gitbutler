@@ -1,5 +1,7 @@
 # Security Policy
 
+Security is very important to the GitButler project. We take all security concerns seriously and appreciate the community's efforts in responsibly disclosing vulnerabilities.
+
 This security policy is effective as of 2026-03-12.
 
 ## Reporting a vulnerability
