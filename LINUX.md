@@ -33,9 +33,9 @@ There are several community-maintained distributions of GitButler. Issues with t
 
 > Know of one we missed? Submit a PR to keep us in the loop!
 
-- Arch Linux User Repository (AUR)
-  - [gitbutler](https://aur.archlinux.org/packages/gitbutler)
-  - [gitbutler-bin](https://aur.archlinux.org/packages/gitbutler-bin)
+- Arch Linux (supported; known to work well)
+  - [gitbutler](https://aur.archlinux.org/packages/gitbutler) (AUR)
+  - [gitbutler-bin](https://aur.archlinux.org/packages/gitbutler-bin) (AUR)
 - Flatpak
   - [GitButler](https://flathub.org/en/apps/com.gitbutler.gitbutler)
 - Nix
